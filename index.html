@@ -7,6 +7,7 @@
     <script defer src="/_vercel/insights/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"/>
     <style>
+
     body {
       background-image: url('images/bggradient2.png');
       background-repeat: no-repeat;
@@ -42,26 +43,35 @@
       src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
     }
 
-    nav ul {
-      flex:auto;
-      text-align: center;
-    }
-    
+  nav {
+    background-color: #bfd5bd;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+  }
 
-    nav ul li {
-      display: inline;
-      margin: 10px;
-    }
+  nav ul {
+      display: flex;
+      justify-content: flex-start;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
 
-    nav ul li a {
-      color: #576956;
-      padding: 5px;
+  nav ul li {
+      margin-right: 20px;
+  }
+
+  nav ul li a {
+      color: #000000;
+      padding: 10px 15px;
       text-decoration: none;
-    }
+      font-size: 1.2em;
+  }
 
-    nav a:hover {
-      color: #2e3f2e
-    }
+  nav ul li a:hover {
+      color: #2e3f2e;
+  }
   
     #sib-container input:-ms-input-placeholder {
       text-align: center;
